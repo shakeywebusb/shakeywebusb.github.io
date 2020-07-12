@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Origin Trial Token, feature = WebUSB (For Chrome M57+), origin = https://webusb.github.io, expires = 2017-06-19 -->
+    <meta http-equiv="origin-trial" data-feature="WebUSB (For Chrome M57+)" data-expires="2017-06-19" content="Ag83MurQOa5N4SKRCqqtSlbycfe08s5LgUiqEI7J3jTk2NEIpRp7SLPz2i+EBDuXyf+AeRMdD6BI++kTSJmGzQEAAABReyJvcmlnaW4iOiJodHRwczovL3dlYnVzYi5naXRodWIuaW86NDQzIiwiZmVhdHVyZSI6IldlYlVTQjIiLCJleHBpcnkiOjE0OTc4OTM2OTV9">
+    <title>Scale</title>
+    <script src="../serial.js"></script>
+    <script src="scale.js"></script>
+  </head>
+  <body>
+    <p>
+      <button id="connect">Connect</button> <span id="status"></span>
+    </p>
+	<p>
+      <button id="KG">KG</button> <span id="status"></span>
+      <button id="LB">LB</button> <span id="status"></span>
+      <button id="OZ">OZ</button> <span id="status"></span>
+      <button id="TARE">Tare</button> <span id="status"></span>
+	</p>
+	
+	<p>
+	<span id="rawreading"></span>
+	<span id="stable"></span>
+	<br/>
+	<span style='font-size: xx-large;' id="unitvalue"></span>
+	<span style='font-size: xx-large;' id="unit"></span>
+	</p>
+  </body>
+</html>

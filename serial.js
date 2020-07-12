@@ -15,6 +15,7 @@ var serial = {};
       { 'vendorId': 0x310A, 'productId': 0x1004 },
       { 'vendorId': 0x310A, 'productId': 0x2003 },
       { 'vendorId': 0x310A, 'productId': 0x2004 },
+      { 'vendorId': 0x310A, 'productId': 0x2001 },
       { 'vendorId': 0x310A, 'productId': 0x2007 },
       { 'vendorId': 0x310A, 'productId': 0x200A },
     ];
